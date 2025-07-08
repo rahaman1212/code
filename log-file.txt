@@ -1,0 +1,45 @@
+
+THIS IS YOUR TRIP TICKET
+=======================
+Pickup Location : tamale
+Destination     : kumasi
+Driver          : Ali
+Distance        : 20 km
+Fare             : $ 20
+=======================
+
+THIS IS YOUR TRIP TICKET
+=======================
+Pickup Location : tamale
+Destination     : kumasi
+Driver          : Ali
+Distance        : 12 km
+Fare             : $ 70
+=======================
+
+THIS IS YOUR TRIP TICKET
+=======================
+Pickup Location : tamale
+Destination     : accra
+Driver          : Aisha
+Distance        : 50 km
+Fare             : $ 100
+=======================
+
+THIS IS YOUR TRIP TICKET
+=======================
+Pickup Location : tamale
+Destination     : volta
+Driver          : Ahmed
+Distance        : 30 km
+Fare             : $ 20
+=======================
+
+THIS IS YOUR TRIP TICKET
+=======================
+Pickup Location : tamale
+Destination     : cape coast
+Driver          : Ahmed
+Distance        : 60 km
+Fare             : $ 50
+=======================
