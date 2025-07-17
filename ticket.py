@@ -15,9 +15,21 @@ while True:
     locationdistance = int(input("[+] Distance from current location to your destination (in km):  "))
 
     # fare
-    fares = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-    fare = random.choice(fares)
-    print("your fare is: ", "$",fare)
+    fares = {50, 60, 70, 80, 90, 100}
+    if locationdistance >= 10:
+        print("your fare is: ", "$",50)
+    elif locationdistance >= 20:
+        print("your fare is: ", "$",60)
+    elif locationdistance >= 30:
+        print("your fare is: ", "$",70)
+    elif locationdistance >= 40:
+        print("your fare is: ", "$",80)
+    elif locationdistance >= 50:
+        print("your fare is: ", "$",90)
+    elif locationdistance > 60:
+        print("your fare is: ", "$",100)
+    else:
+        print("sorry your fare is insufficient you can't be on this trip 😭👺")
        
     # Assign a driver
     assigned_driver = random.choice(drivers)
@@ -31,7 +43,7 @@ Pickup Location : {pickup}
 Destination     : {destination}
 Driver          : {assigned_driver}
 Distance        : {locationdistance} km
-Fare             : $ {fare}
+Fare             : $ {fares}
 =======================
 """)
     print(f"Driver {assigned_driver} has been assigned to you save journey!!!")
